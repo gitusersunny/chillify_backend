@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_csv("E:/chillify_backend_flask/dataset.csv")
+df = pd.read_csv("dataset.csv")
 df = df.sample(n=5000,random_state=42).reset_index(drop=True)
 df.head()
 
