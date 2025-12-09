@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 df = pd.read_csv("dataset.csv")
-df = df.sample(n=5000,random_state=42).reset_index(drop=True)
+df = df.sample(frac=1, random_state=42).reset_index(drop=True)
 df.head()
 
 numerical_features = [
