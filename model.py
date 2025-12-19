@@ -93,7 +93,4 @@ def recommendation(song_name: str, no_of_reco: int = 5):
     }
 
 # Export reference
-
-print(recommendation("stay"))
-
-# export = recommendation
+export = recommendation
