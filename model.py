@@ -191,4 +191,4 @@ def recommend_by_mood(mood: str, no_of_reco: int = 5):
     }
 
 # Export reference
-export = recommendation
+export = recommend_by_mood , recommendation
