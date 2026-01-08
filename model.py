@@ -189,5 +189,3 @@ def recommend_by_mood(mood: str, no_of_reco: int = 5):
         "success": True,
         "recommendations": recommendations
     }
-
-print(recommendation("stay"))
