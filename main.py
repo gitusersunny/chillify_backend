@@ -1,5 +1,6 @@
 from model import recommendation
 from model import recommend_by_mood
+from typing import Optional
 from fastapi import FastAPI
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
@@ -21,7 +22,7 @@ def home():
 
 class SongRequest(BaseModel):
     song_name: str
-    mood: str
+    mood: Optional[str] = ""
 
 @app.post("/recommend")
 def recommend_song(data: SongRequest):
