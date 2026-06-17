@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "training_date": "2026-06-17T21:38:04.973467",
+  "training_time_seconds": 1.988991,
+  "n_samples": 3000,
+  "optimal_k": 7,
+  "features_used": [
+    "valence",
+    "danceability",
+    "energy",
+    "tempo",
+    "acousticness",
+    "liveness",
+    "speechiness",
+    "instrumentalness"
+  ],
+  "data_statistics": {
+    "total_songs": 3000,
+    "unique_artists": 2477,
+    "unique_songs": 2888
+  },
+  "performance_metrics": {
+    "precision@10": 0.8290000000000001,
+    "recall@10": 0.8290000000000001,
+    "f1@10": 0.8290000000000001,
+    "coverage": 0.28601108033240996,
+    "diversity": 16.229237370244306
+  },
+  "model_hash": "aa4eede42d317db5ac35c9d8d7e769fc"
+}
